@@ -1,10 +1,16 @@
 # Table of contents
 
 * [Welcome!](README.md)
-* [Quick Start](quick-start.md)
+* [About Us](about-us.md)
 
-## Reference
+## Cosmos Chains
 
-* [API Reference](reference/api-reference/README.md)
-  * [Pets](reference/api-reference/pets.md)
-  * [Users](reference/api-reference/users.md)
+* [BitCanna (BCNA)](cosmos-chains/bitcanna-bcna.md)
+* [BitSong (BTSG)](cosmos-chains/bitsong-btsg.md)
+* [Cerberus (CRBRUS)](cosmos-chains/cerberus-crbrus.md)
+* [Shentu (CTK)](cosmos-chains/shentu-ctk.md)
+* [Desmos (DSM)](cosmos-chains/desmos-dsm.md)
+* [Passage (PASG)](cosmos-chains/passage-pasg.md)
+* [API Reference](cosmos-chains/api-reference/README.md)
+  * [Pets](cosmos-chains/api-reference/pets.md)
+  * [Users](cosmos-chains/api-reference/users.md)
