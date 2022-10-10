@@ -1,12 +1,12 @@
 # Welcome!
 
-## Welcome to MyAPI
+## Welcome to our docs
 
-Welcome to MyAPI! Here you'll find all the documentation you need to get up and running with the MyAPI API.
+Welcome to the Panthea EU docs.
 
 ## Want to jump right in?
 
-Feeling like an eager beaver? Jump in to the quick start docs and get making your first request:
+Feeling like an eager beaver? Jump in to the quick start docs:
 
 {% content-ref url="about-us.md" %}
 [about-us.md](about-us.md)
