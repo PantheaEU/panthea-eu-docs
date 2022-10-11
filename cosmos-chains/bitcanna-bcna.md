@@ -4,6 +4,8 @@ description: Decentralized payment network and supply chain for legal cannabis i
 
 # BitCanna (BCNA)
 
+## State Sync
+
 ```bash
 #!/bin/bash
 
@@ -18,7 +20,7 @@ s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$SNAP_RPC,$SNAP_RPC\"| ; \
 s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
 s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $HOME/.bcna/config/config.toml
 
-sudo systemctl stop bcnad
+sudo service bcnad stop
 
 cp $HOME/.bcna/data/priv_validator_state.json $HOME/.bcna/priv_validator_state.json.backup
 
@@ -26,5 +28,5 @@ bcnad tendermint unsafe-reset-all --home "$HOME/.bcna"
 
 mv $HOME/.bcna/priv_validator_state.json.backup $HOME/.bcna/data/priv_validator_state.json
 
-sudo systemctl start bcnad
+sudo service bcnad start
 ```
