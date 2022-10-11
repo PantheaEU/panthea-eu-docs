@@ -9,6 +9,6 @@
 * [BitCanna (BCNA)](cosmos-chains/bitcanna-bcna.md)
 * [BitSong (BTSG)](cosmos-chains/bitsong-btsg.md)
 * [Cerberus (CRBRUS)](cosmos-chains/cerberus-crbrus.md)
-* [Shentu (CTK)](cosmos-chains/shentu-ctk.md)
 * [Desmos (DSM)](cosmos-chains/desmos-dsm.md)
 * [Passage (PASG)](cosmos-chains/passage-pasg.md)
+* [Shentu (CTK)](cosmos-chains/shentu-ctk.md)
