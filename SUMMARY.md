@@ -1,7 +1,8 @@
 # Table of contents
 
-* [Welcome!](README.md)
-* [About Us](about-us.md)
+## Welcome
+
+* [About Us](README.md)
 
 ## Cosmos Chains
 
