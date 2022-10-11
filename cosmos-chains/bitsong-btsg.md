@@ -30,5 +30,5 @@ sudo service bitsongd start
 ## Persistent Peer
 
 ```url
-2cd6bb75fc9279c62c0ef3af82fbe08632743472@161.97.125.111:31656
+2cd6bb75fc9279c62c0ef3af82fbe08632743472@bitsong-peer.panthea.eu:31656
 ```

@@ -30,5 +30,5 @@ sudo service passage start
 ## Persistent Peer
 
 ```
-054b90a8dc7b392e4b1d0e3b6d09bcb2c38251cb@161.97.125.111:30656
+054b90a8dc7b392e4b1d0e3b6d09bcb2c38251cb@passage-peer.panthea.eu:30656
 ```

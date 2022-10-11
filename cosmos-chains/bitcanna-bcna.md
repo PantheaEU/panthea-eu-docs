@@ -28,5 +28,5 @@ sudo service bcnad start
 ## Persistent Peer
 
 ```url
-0a658df9d9fab096983a12e6f878e87281a15ce6@194.163.172.37:27656
+0a658df9d9fab096983a12e6f878e87281a15ce6@bitcanna-peer.panthea.eu:27656
 ```

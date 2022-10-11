@@ -28,5 +28,5 @@ sudo service cerberusd start
 ## Persistent Peer
 
 ```url
-ab4fe77e992354fb1c384e4eadbc05427446ada7@194.163.172.37:28656
+ab4fe77e992354fb1c384e4eadbc05427446ada7@cerberus-peer.panthea.eu:28656
 ```

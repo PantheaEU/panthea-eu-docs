@@ -30,5 +30,5 @@ sudo service certik start
 ## Persistent Peer
 
 ```url
-207c47bed435e4174844064ef3f51ca35b059de2@194.163.172.37:26656
+207c47bed435e4174844064ef3f51ca35b059de2@shentu-peer.panthea.eu:26656
 ```

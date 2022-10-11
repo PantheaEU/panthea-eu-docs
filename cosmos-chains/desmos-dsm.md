@@ -30,5 +30,5 @@ sudo service desmosd start
 ## Persistent Peer
 
 ```url
-7c506d9e32cfc486ea714ee0c0307022398b8c20@161.97.125.111:29656
+7c506d9e32cfc486ea714ee0c0307022398b8c20@desmos-peer.panthea.eu:29656
 ```
