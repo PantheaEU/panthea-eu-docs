@@ -6,3 +6,8 @@ description: >-
 
 # Shentu (CTK)
 
+## State Sync
+
+```bash
+// Some code
+```

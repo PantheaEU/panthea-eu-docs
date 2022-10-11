@@ -6,3 +6,8 @@ description: >-
 
 # Passage (PASG)
 
+## State Sync
+
+```bash
+// Some code
+```
