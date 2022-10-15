@@ -31,7 +31,7 @@ sudo service bcnad start
 0a658df9d9fab096983a12e6f878e87281a15ce6@bitcanna-peer.panthea.eu:27656
 ```
 
-## Seed
+## Seed Node
 
 ```url
 f0e6c86d769bf5c52f78e01864091690e731643f@bitcanna-seed.panthea.eu:37656

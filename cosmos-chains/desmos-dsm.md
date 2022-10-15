@@ -33,7 +33,7 @@ sudo service desmosd start
 7c506d9e32cfc486ea714ee0c0307022398b8c20@desmos-peer.panthea.eu:29656
 ```
 
-## Seed
+## Seed Node
 
 ```url
 4914d4b60123a625d41da7cad9950a4a12ce61ca@desmos-seed.panthea.eu:39656

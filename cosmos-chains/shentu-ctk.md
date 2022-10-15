@@ -33,7 +33,7 @@ sudo service certik start
 207c47bed435e4174844064ef3f51ca35b059de2@shentu-peer.panthea.eu:26656
 ```
 
-## Seed
+## Seed Node
 
 ```url
 3edd4e16b791218b623f883d04f8aa5c3ff2cca6@shentu-seed.panthea.eu:36656

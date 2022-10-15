@@ -31,7 +31,7 @@ sudo service cerberusd start
 ab4fe77e992354fb1c384e4eadbc05427446ada7@cerberus-peer.panthea.eu:28656
 ```
 
-## Seed
+## Seed Node
 
 ```url
 d94df4d4a17fa10834bb97853d91b501aa4abc4b@cerberus-seed.panthea.eu:38656

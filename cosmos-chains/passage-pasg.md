@@ -33,7 +33,7 @@ sudo service passage start
 054b90a8dc7b392e4b1d0e3b6d09bcb2c38251cb@passage-peer.panthea.eu:30656
 ```
 
-## Seed
+## Seed Node
 
 ```url
 ecfd6a2ab8dc2b196080ff6506cd0d1c68f6f8b5@passage-seed.panthea.eu:40656
