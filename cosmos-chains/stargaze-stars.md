@@ -6,6 +6,18 @@ description: >-
 
 # Stargaze (STARS)
 
+## State Sync
+
+```bash
+// Coming soon
+```
+
+## Persistent Peer
+
+```url
+// Coming soon ...@stargaze-peer.panthea.eu:32656
+```
+
 ## Seed Node
 
 ```url
