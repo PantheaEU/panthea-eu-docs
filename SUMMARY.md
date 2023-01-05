@@ -4,12 +4,12 @@
 
 * [About Us](README.md)
 
-## Cosmos Chains
+## Cosmos Blockchains
 
-* [BitCanna (BCNA)](cosmos-chains/bitcanna-bcna.md)
-* [BitSong (BTSG)](cosmos-chains/bitsong-btsg.md)
-* [Cerberus (CRBRUS)](cosmos-chains/cerberus-crbrus.md)
-* [Desmos (DSM)](cosmos-chains/desmos-dsm.md)
-* [Lum Network (LUM)](cosmos-chains/lum-network-lum.md)
-* [Passage (PASG)](cosmos-chains/passage-pasg.md)
-* [Shentu (CTK)](cosmos-chains/shentu-ctk.md)
+* [BitCanna (BCNA)](cosmos-blockchains/bitcanna-bcna.md)
+* [BitSong (BTSG)](cosmos-blockchains/bitsong-btsg.md)
+* [Cerberus (CRBRUS)](cosmos-blockchains/cerberus-crbrus.md)
+* [Desmos (DSM)](cosmos-blockchains/desmos-dsm.md)
+* [Lum Network (LUM)](cosmos-blockchains/lum-network-lum.md)
+* [Passage (PASG)](cosmos-blockchains/passage-pasg.md)
+* [Shentu (CTK)](cosmos-blockchains/shentu-ctk.md)
