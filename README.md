@@ -1,4 +1,4 @@
 # About Us
 
-We're working on it.... and it's a pretty boring store anyway!
+We are a highly trusted, reliable and secure Proof-of-Stake infrastructure provider and validator on several blockchains.
 

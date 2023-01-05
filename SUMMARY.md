@@ -13,4 +13,3 @@
 * [Lum Network (LUM)](cosmos-chains/lum-network-lum.md)
 * [Passage (PASG)](cosmos-chains/passage-pasg.md)
 * [Shentu (CTK)](cosmos-chains/shentu-ctk.md)
-* [Stargaze (STARS)](cosmos-chains/stargaze-stars.md)
