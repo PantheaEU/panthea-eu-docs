@@ -23,7 +23,7 @@ s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
 s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $HOME/.bitsongd/config/config.toml
 
 sudo service bitsongd stop
-bitsongd tendermint unsafe-reset-all --home "$HOME/.bitsongd"
+bitsongd tendermint unsafe-reset-all --keep-addr-book --home "$HOME/.bitsongd"
 sudo service bitsongd start
 ```
 

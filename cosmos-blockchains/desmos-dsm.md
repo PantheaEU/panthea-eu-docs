@@ -23,7 +23,7 @@ s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
 s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $HOME/.desmos/config/config.toml
 
 sudo service desmosd stop
-desmos tendermint unsafe-reset-all
+desmos tendermint unsafe-reset-all --keep-addr-book --home "$HOME/.desmos"
 sudo service desmosd start
 ```
 
