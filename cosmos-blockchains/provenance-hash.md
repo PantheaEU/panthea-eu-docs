@@ -15,7 +15,7 @@ description: >-
 ## Persistent Peer
 
 ```url
-6b6e267bf87f163fcf776c6e469ec7275e844072@provenance-peer.panthea.eu:42656
+6b6e267bf87f163fcf776c6e469ec7275e844072@provenance-peer.panthea.eu:32656
 ```
 
 ## Seed Node
