@@ -20,9 +20,9 @@ s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$SNAP_RPC,$SNAP_RPC\"| ; \
 s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
 s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $HOME/.bcna/config/config.toml
 
-sudo service bcnad stop
+service bcnad stop
 bcnad tendermint unsafe-reset-all --keep-addr-book --home "$HOME/.bcna"
-sudo service bcnad start
+service bcnad start
 ```
 
 ## Persistent Peer

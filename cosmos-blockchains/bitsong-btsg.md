@@ -8,8 +8,7 @@ description: >-
 
 ## State Sync
 
-```bash
-#!/bin/bash
+<pre class="language-bash"><code class="lang-bash">#!/bin/bash
 
 SNAP_RPC="https://bitsong-rpc.panthea.eu:443"
 
@@ -22,10 +21,10 @@ s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$SNAP_RPC,$SNAP_RPC\"| ; \
 s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
 s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $HOME/.bitsongd/config/config.toml
 
-sudo service bitsongd stop
-bitsongd tendermint unsafe-reset-all --keep-addr-book --home "$HOME/.bitsongd"
-sudo service bitsongd start
-```
+<strong>service bitsongd stop
+</strong>bitsongd tendermint unsafe-reset-all --keep-addr-book --home "$HOME/.bitsongd"
+service bitsongd start
+</code></pre>
 
 ## Persistent Peer
 
