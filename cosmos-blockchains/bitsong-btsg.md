@@ -22,7 +22,13 @@ s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
 s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $HOME/.bitsongd/config/config.toml
 
 <strong>service bitsongd stop
-</strong>bitsongd tendermint unsafe-reset-all --keep-addr-book --home "$HOME/.bitsongd"
+</strong><strong>
+</strong>cp $HOME/.bitsongd/data/priv_validator_state.json $HOME/.bitsongd/priv_validator_state.json.backup
+
+bitsongd tendermint unsafe-reset-all --keep-addr-book --home "$HOME/.bitsongd"
+
+mv $HOME/.bitsongd/priv_validator_state.json.backup $HOME/.bitsongd/data/priv_validator_state.json
+
 service bitsongd start
 </code></pre>
 
