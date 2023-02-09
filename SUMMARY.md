@@ -11,5 +11,4 @@
 * [Cerberus (CRBRUS)](cosmos-blockchains/cerberus-crbrus.md)
 * [Desmos (DSM)](cosmos-blockchains/desmos-dsm.md)
 * [Lum Network (LUM)](cosmos-blockchains/lum-network-lum.md)
-* [Provenance (HASH)](cosmos-blockchains/provenance-hash.md)
 * [Shentu (CTK)](cosmos-blockchains/shentu-ctk.md)
