@@ -20,9 +20,15 @@ s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$SNAP_RPC,$SNAP_RPC\"| ; \
 s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
 s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $HOME/.lumd/config/config.toml
 
-service lumd stop
+sudo systemctl stop lumd
+
+cp $HOME/.lumd/data/priv_validator_state.json $HOME/.lumd/priv_validator_state.json.backup
+
 lumd tendermint unsafe-reset-all --keep-addr-book --home "$HOME/.lumd"
-service lumd start
+
+mv $HOME/.lumd/priv_validator_state.json.backup $HOME/.lumd/data/priv_validator_state.json
+
+sudo systemctl start lumd
 ```
 
 ## Persistent Peer

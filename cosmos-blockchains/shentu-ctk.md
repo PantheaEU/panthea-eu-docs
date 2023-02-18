@@ -22,9 +22,15 @@ s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$SNAP_RPC,$SNAP_RPC\"| ; \
 s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
 s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $HOME/.shentud/config/config.toml
 
-service shentud stop
+sudo systemctl stop shentud
+
+cp $HOME/.shentud/data/priv_validator_state.json $HOME/.shentud/priv_validator_state.json.backup
+
 shentud tendermint unsafe-reset-all --keep-addr-book --home "$HOME/.shentud"
-service shentud start
+
+mv $HOME/.shentud/priv_validator_state.json.backup $HOME/.shentud/data/priv_validator_state.json
+
+sudo systemctl start shentud
 ```
 
 ## Persistent Peer
