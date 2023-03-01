@@ -6,6 +6,12 @@ description: >-
 
 # Ki Chain (XKI)
 
+## State Sync
+
+```
+Not available!
+```
+
 ## Persistent Peer
 
 ```url
