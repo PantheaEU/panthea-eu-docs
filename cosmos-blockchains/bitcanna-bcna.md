@@ -4,6 +4,12 @@ description: Decentralized payment network and supply chain for legal cannabis i
 
 # BitCanna (BCNA)
 
+## Snapshot
+
+```bash
+Coming soon!
+```
+
 ## State Sync
 
 ```bash

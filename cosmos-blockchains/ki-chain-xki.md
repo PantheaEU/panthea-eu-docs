@@ -6,6 +6,12 @@ description: >-
 
 # Ki Chain (XKI)
 
+## Snapshot
+
+```bash
+Coming soon!
+```
+
 ## State Sync
 
 ```

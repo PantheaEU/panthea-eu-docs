@@ -4,6 +4,12 @@ description: A Cosmos SDK-based blockchain designed for on-chain user reviews an
 
 # Lum Network (LUM)
 
+## Snapshot
+
+```bash
+Coming soon!
+```
+
 ## State Sync
 
 ```bash
