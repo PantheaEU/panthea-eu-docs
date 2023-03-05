@@ -11,7 +11,17 @@ description: >-
 **Pruning**: custom/100/0/10 - **Indexer**: null
 
 ```bash
-Coming soon!
+sudo systemctl stop desmosd
+
+cp $HOME/.desmos/data/priv_validator_state.json $HOME/.desmos/priv_validator_state.json.backup
+
+rm -rf $HOME/.desmos/data/
+
+curl -o - -L https://www.panthea.eu/snapshots/desmos-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.desmos
+
+mv $HOME/.desmos/priv_validator_state.json.backup $HOME/.desmos/data/priv_validator_state.json
+
+sudo systemctl start desmosd
 ```
 
 ## State Sync
