@@ -11,7 +11,17 @@ description: >-
 **Pruning**: custom/100/0/10 - **Indexer**: null
 
 ```bash
-Coming soon!
+sudo systemctl stop kid
+
+cp $HOME/.kid/data/priv_validator_state.json $HOME/.kid/priv_validator_state.json.backup
+
+rm -rf $HOME/.kid/data/
+
+curl -o - -L https://www.panthea.eu/snapshots/kichain-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.kid
+
+mv $HOME/.kid/priv_validator_state.json.backup $HOME/.kid/data/priv_validator_state.json
+
+sudo systemctl start kid
 ```
 
 ## State Sync

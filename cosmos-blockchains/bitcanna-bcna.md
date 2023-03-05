@@ -9,7 +9,17 @@ description: Decentralized payment network and supply chain for legal cannabis i
 **Pruning**: custom/100/0/10 - **Indexer**: null
 
 ```bash
-Coming soon!
+sudo systemctl stop bcnad
+
+cp $HOME/.bcna/data/priv_validator_state.json $HOME/.bcna/priv_validator_state.json.backup
+
+rm -rf $HOME/.bcna/data/
+
+curl -o - -L https://www.panthea.eu/snapshots/bitcanna-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.bcna
+
+mv $HOME/.bcna/priv_validator_state.json.backup $HOME/.bcna/data/priv_validator_state.json
+
+sudo systemctl start bcnad
 ```
 
 ## State Sync
