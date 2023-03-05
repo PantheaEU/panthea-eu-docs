@@ -6,7 +6,9 @@ description: >-
 
 # Shentu (CTK)
 
-## Snapshot
+## Snapshot (Max. 6 hours old)
+
+**Pruning**: custom/100/0/10 - **Indexer**: null
 
 ```bash
 Coming soon!
