@@ -11,7 +11,17 @@ description: >-
 **Pruning**: custom/100/0/10 - **Indexer**: null
 
 ```bash
-Coming soon!
+sudo systemctl stop shentud
+
+cp $HOME/.shentud/data/priv_validator_state.json $HOME/.shentud/priv_validator_state.json.backup
+
+rm -rf $HOME/.shentud/data/
+
+curl -o - -L https://www.panthea.eu/snapshots/shentu-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.shentud
+
+mv $HOME/.shentud/priv_validator_state.json.backup $HOME/.shentud/data/priv_validator_state.json
+
+sudo systemctl start shentud
 ```
 
 ## State Sync
