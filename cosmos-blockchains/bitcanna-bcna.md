@@ -15,7 +15,7 @@ cp $HOME/.bcna/data/priv_validator_state.json $HOME/.bcna/priv_validator_state.j
 
 rm -rf $HOME/.bcna/data/
 
-curl -o - -L https://www.panthea.eu/snapshots/bitcanna-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.bcna
+curl -o - -L https://valhalla.panthea.eu/snapshots/bitcanna-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.bcna
 
 mv $HOME/.bcna/priv_validator_state.json.backup $HOME/.bcna/data/priv_validator_state.json
 

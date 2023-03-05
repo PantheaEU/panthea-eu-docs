@@ -15,7 +15,7 @@ cp $HOME/.lumd/data/priv_validator_state.json $HOME/.lumd/priv_validator_state.j
 
 rm -rf $HOME/.lumd/data/
 
-curl -o - -L https://www.panthea.eu/snapshots/lum-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.lumd
+curl -o - -L https://valhalla.panthea.eu/snapshots/lum-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.lumd
 
 mv $HOME/.lumd/priv_validator_state.json.backup $HOME/.lumd/data/priv_validator_state.json
 

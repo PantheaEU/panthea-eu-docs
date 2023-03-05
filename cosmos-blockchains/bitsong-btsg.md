@@ -17,7 +17,7 @@ cp $HOME/.bitsongd/data/priv_validator_state.json $HOME/.bitsongd/priv_validator
 
 rm -rf $HOME/.bitsongd/data/
 
-curl -o - -L https://www.panthea.eu/snapshots/bitsong-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.bitsongd
+curl -o - -L https://valhalla.panthea.eu/snapshots/bitsong-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.bitsongd
 
 mv $HOME/.bitsongd/priv_validator_state.json.backup $HOME/.bitsongd/data/priv_validator_state.json
 

@@ -17,7 +17,7 @@ cp $HOME/.kid/data/priv_validator_state.json $HOME/.kid/priv_validator_state.jso
 
 rm -rf $HOME/.kid/data/
 
-curl -o - -L https://www.panthea.eu/snapshots/kichain-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.kid
+curl -o - -L https://valhalla.panthea.eu/snapshots/kichain-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.kid
 
 mv $HOME/.kid/priv_validator_state.json.backup $HOME/.kid/data/priv_validator_state.json
 

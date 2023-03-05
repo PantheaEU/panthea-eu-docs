@@ -17,7 +17,7 @@ cp $HOME/.desmos/data/priv_validator_state.json $HOME/.desmos/priv_validator_sta
 
 rm -rf $HOME/.desmos/data/
 
-curl -o - -L https://www.panthea.eu/snapshots/desmos-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.desmos
+curl -o - -L https://valhalla.panthea.eu/snapshots/desmos-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.desmos
 
 mv $HOME/.desmos/priv_validator_state.json.backup $HOME/.desmos/data/priv_validator_state.json
 
