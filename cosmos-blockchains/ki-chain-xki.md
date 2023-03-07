@@ -24,6 +24,10 @@ mv $HOME/.kid/priv_validator_state.json.backup $HOME/.kid/data/priv_validator_st
 sudo systemctl start kid
 ```
 
+## Addrbook
+
+[https://valhalla.panthea.eu/addrbooks/kichain/addrbook.json](https://valhalla.panthea.eu/addrbooks/kichain/addrbook.json)
+
 ## State Sync
 
 ```

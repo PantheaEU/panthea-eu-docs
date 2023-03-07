@@ -26,6 +26,10 @@ sudo systemctl start bcnad
 
 [https://valhalla.panthea.eu/addrbooks/bitcanna/addrbook.json](https://valhalla.panthea.eu/addrbooks/bitcanna/addrbook.json)&#x20;
 
+## Genesis file
+
+[https://valhalla.panthea.eu/genesis/bitcanna/genesis.json](https://valhalla.panthea.eu/genesis/bitcanna/genesis.json)
+
 ## State Sync
 
 ```bash

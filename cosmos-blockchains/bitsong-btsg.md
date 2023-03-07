@@ -24,6 +24,10 @@ mv $HOME/.bitsongd/priv_validator_state.json.backup $HOME/.bitsongd/data/priv_va
 sudo systemctl start bitsongd
 ```
 
+## Addrbook
+
+[https://valhalla.panthea.eu/addrbooks/bitsong/addrbook.json](https://valhalla.panthea.eu/addrbooks/bitsong/addrbook.json)
+
 ## State Sync
 
 ```bash

@@ -24,6 +24,10 @@ mv $HOME/.shentud/priv_validator_state.json.backup $HOME/.shentud/data/priv_vali
 sudo systemctl start shentud
 ```
 
+## Addrbook
+
+[https://valhalla.panthea.eu/addrbooks/shentu/addrbook.json](https://valhalla.panthea.eu/addrbooks/shentu/addrbook.json)
+
 ## State Sync
 
 ```bash

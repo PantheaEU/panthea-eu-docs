@@ -22,6 +22,10 @@ mv $HOME/.lumd/priv_validator_state.json.backup $HOME/.lumd/data/priv_validator_
 sudo systemctl start lumd
 ```
 
+## Addrbook
+
+[https://valhalla.panthea.eu/addrbooks/lum/addrbook.json](https://valhalla.panthea.eu/addrbooks/lum/addrbook.json)
+
 ## State Sync
 
 ```bash

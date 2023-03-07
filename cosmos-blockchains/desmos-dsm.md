@@ -24,6 +24,10 @@ mv $HOME/.desmos/priv_validator_state.json.backup $HOME/.desmos/data/priv_valida
 sudo systemctl start desmosd
 ```
 
+## Addrbook
+
+[https://valhalla.panthea.eu/addrbooks/desmos/addrbook.json](https://valhalla.panthea.eu/addrbooks/desmos/addrbook.json)
+
 ## State Sync
 
 ```bash
