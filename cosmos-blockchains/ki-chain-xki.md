@@ -28,6 +28,10 @@ sudo systemctl start kid
 
 [https://valhalla.panthea.eu/addrbooks/kichain/addrbook.json](https://valhalla.panthea.eu/addrbooks/kichain/addrbook.json)
 
+## Genesis file
+
+[https://valhalla.panthea.eu/genesis/kichain/genesis.json](https://valhalla.panthea.eu/genesis/kichain/genesis.json)
+
 ## Persistent Peer
 
 ```url

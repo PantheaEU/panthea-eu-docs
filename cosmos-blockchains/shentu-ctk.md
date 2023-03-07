@@ -28,6 +28,10 @@ sudo systemctl start shentud
 
 [https://valhalla.panthea.eu/addrbooks/shentu/addrbook.json](https://valhalla.panthea.eu/addrbooks/shentu/addrbook.json)
 
+## Genesis file
+
+[https://valhalla.panthea.eu/genesis/shentu/genesis.json](https://valhalla.panthea.eu/genesis/shentu/genesis.json)
+
 ## Persistent Peer
 
 ```url

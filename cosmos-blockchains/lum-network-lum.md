@@ -26,6 +26,10 @@ sudo systemctl start lumd
 
 [https://valhalla.panthea.eu/addrbooks/lum/addrbook.json](https://valhalla.panthea.eu/addrbooks/lum/addrbook.json)
 
+## Genesis file
+
+[https://valhalla.panthea.eu/genesis/lum/genesis.json](https://valhalla.panthea.eu/genesis/lum/genesis.json)
+
 ## Persistent Peer
 
 ```url
