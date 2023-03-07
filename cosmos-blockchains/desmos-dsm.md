@@ -28,12 +28,6 @@ sudo systemctl start desmosd
 
 [https://valhalla.panthea.eu/addrbooks/desmos/addrbook.json](https://valhalla.panthea.eu/addrbooks/desmos/addrbook.json)
 
-## State Sync
-
-```bash
-Not available!
-```
-
 ## Persistent Peer
 
 ```url

@@ -30,12 +30,6 @@ sudo systemctl start bcnad
 
 [https://valhalla.panthea.eu/genesis/bitcanna/genesis.json](https://valhalla.panthea.eu/genesis/bitcanna/genesis.json)
 
-## State Sync
-
-```bash
-Not available!
-```
-
 ## Persistent Peer
 
 ```url

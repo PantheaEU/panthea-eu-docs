@@ -28,12 +28,6 @@ sudo systemctl start kid
 
 [https://valhalla.panthea.eu/addrbooks/kichain/addrbook.json](https://valhalla.panthea.eu/addrbooks/kichain/addrbook.json)
 
-## State Sync
-
-```
-Not available!
-```
-
 ## Persistent Peer
 
 ```url

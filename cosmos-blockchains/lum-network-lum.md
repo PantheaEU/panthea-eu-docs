@@ -26,12 +26,6 @@ sudo systemctl start lumd
 
 [https://valhalla.panthea.eu/addrbooks/lum/addrbook.json](https://valhalla.panthea.eu/addrbooks/lum/addrbook.json)
 
-## State Sync
-
-```bash
-Not available!
-```
-
 ## Persistent Peer
 
 ```url

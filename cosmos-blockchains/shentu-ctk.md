@@ -28,12 +28,6 @@ sudo systemctl start shentud
 
 [https://valhalla.panthea.eu/addrbooks/shentu/addrbook.json](https://valhalla.panthea.eu/addrbooks/shentu/addrbook.json)
 
-## State Sync
-
-```bash
-Not available!
-```
-
 ## Persistent Peer
 
 ```url

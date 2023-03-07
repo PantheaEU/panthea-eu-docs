@@ -28,12 +28,6 @@ sudo systemctl start bitsongd
 
 [https://valhalla.panthea.eu/addrbooks/bitsong/addrbook.json](https://valhalla.panthea.eu/addrbooks/bitsong/addrbook.json)
 
-## State Sync
-
-```bash
-Not available!
-```
-
 ## Persistent Peer
 
 ```url
