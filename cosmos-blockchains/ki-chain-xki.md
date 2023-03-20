@@ -24,6 +24,10 @@ mv $HOME/.kid/priv_validator_state.json.backup $HOME/.kid/data/priv_validator_st
 sudo systemctl start kid
 ```
 
+## Wasm only (Max. 6 hours old)
+
+[https://valhalla.panthea.eu/snapshots/kichain-wasm.tar.lz4](https://valhalla.panthea.eu/snapshots/kichain-wasm.tar.lz4)
+
 ## Addrbook
 
 [https://valhalla.panthea.eu/addrbooks/kichain/addrbook.json](https://valhalla.panthea.eu/addrbooks/kichain/addrbook.json)

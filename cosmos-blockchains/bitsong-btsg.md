@@ -24,6 +24,10 @@ mv $HOME/.bitsongd/priv_validator_state.json.backup $HOME/.bitsongd/data/priv_va
 sudo systemctl start bitsongd
 ```
 
+## Wasm only (Max. 6 hours old)
+
+[https://valhalla.panthea.eu/snapshots/bitsong-wasm.tar.lz4](https://valhalla.panthea.eu/snapshots/bitsong-wasm.tar.lz4)
+
 ## Addrbook
 
 [https://valhalla.panthea.eu/addrbooks/bitsong/addrbook.json](https://valhalla.panthea.eu/addrbooks/bitsong/addrbook.json)

@@ -24,6 +24,10 @@ mv $HOME/.desmos/priv_validator_state.json.backup $HOME/.desmos/data/priv_valida
 sudo systemctl start desmosd
 ```
 
+## Wasm only (Max. 6 hours old)
+
+[https://valhalla.panthea.eu/snapshots/desmos-wasm.tar.lz4](https://valhalla.panthea.eu/snapshots/desmos-wasm.tar.lz4)
+
 ## Addrbook
 
 [https://valhalla.panthea.eu/addrbooks/desmos/addrbook.json](https://valhalla.panthea.eu/addrbooks/desmos/addrbook.json)
