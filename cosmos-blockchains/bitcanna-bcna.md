@@ -22,7 +22,7 @@ mv $HOME/.bcna/priv_validator_state.json.backup $HOME/.bcna/data/priv_validator_
 sudo systemctl start bcnad
 ```
 
-## Addrbook
+## Addrbook (Updated 4 times a day)
 
 [https://valhalla.panthea.eu/addrbooks/bitcanna/addrbook.json](https://valhalla.panthea.eu/addrbooks/bitcanna/addrbook.json)&#x20;
 

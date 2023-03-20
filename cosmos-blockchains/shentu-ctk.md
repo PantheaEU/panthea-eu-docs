@@ -24,7 +24,7 @@ mv $HOME/.shentud/priv_validator_state.json.backup $HOME/.shentud/data/priv_vali
 sudo systemctl start shentud
 ```
 
-## Addrbook
+## Addrbook (Updated 4 times a day)
 
 ```bash
 curl -Ls https://valhalla.panthea.eu/addrbooks/shentu/addrbook.json > $HOME/.shentud/config/addrbook.json

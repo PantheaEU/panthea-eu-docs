@@ -28,7 +28,7 @@ sudo systemctl start bitsongd
 
 [https://valhalla.panthea.eu/snapshots/bitsong-wasm.tar.lz4](https://valhalla.panthea.eu/snapshots/bitsong-wasm.tar.lz4)
 
-## Addrbook
+## Addrbook (Updated 4 times a day)
 
 [https://valhalla.panthea.eu/addrbooks/bitsong/addrbook.json](https://valhalla.panthea.eu/addrbooks/bitsong/addrbook.json)
 

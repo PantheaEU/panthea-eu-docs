@@ -28,7 +28,7 @@ sudo systemctl start desmosd
 
 [https://valhalla.panthea.eu/snapshots/desmos-wasm.tar.lz4](https://valhalla.panthea.eu/snapshots/desmos-wasm.tar.lz4)
 
-## Addrbook
+## Addrbook (Updated 4 times a day)
 
 [https://valhalla.panthea.eu/addrbooks/desmos/addrbook.json](https://valhalla.panthea.eu/addrbooks/desmos/addrbook.json)
 

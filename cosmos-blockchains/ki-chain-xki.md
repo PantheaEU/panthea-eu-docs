@@ -28,13 +28,17 @@ sudo systemctl start kid
 
 [https://valhalla.panthea.eu/snapshots/kichain-wasm.tar.lz4](https://valhalla.panthea.eu/snapshots/kichain-wasm.tar.lz4)
 
-## Addrbook
+## Addrbook (Updated 4 times a day)
 
-[https://valhalla.panthea.eu/addrbooks/kichain/addrbook.json](https://valhalla.panthea.eu/addrbooks/kichain/addrbook.json)
+```bash
+curl -Ls https://valhalla.panthea.eu/addrbooks/kichain/addrbook.json > $HOME/.kid/config/addrbook.json
+```
 
 ## Genesis file
 
-[https://valhalla.panthea.eu/genesis/kichain/genesis.json](https://valhalla.panthea.eu/genesis/kichain/genesis.json)
+```bash
+curl -Ls https://valhalla.panthea.eu/genesis/kichain/genesis.json > $HOME/.kid/config/genesis.json
+```
 
 ## Persistent Peer
 
