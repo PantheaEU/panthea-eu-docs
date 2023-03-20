@@ -15,7 +15,7 @@ sudo systemctl stop kid
 
 cp $HOME/.kid/data/priv_validator_state.json $HOME/.kid/priv_validator_state.json.backup
 
-rm -rf $HOME/.kid/data/
+rm -rf $HOME/.kid/data/ $HOME/.kid/wasm
 
 curl -o - -L https://valhalla.panthea.eu/snapshots/kichain-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.kid
 
