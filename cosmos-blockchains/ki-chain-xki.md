@@ -52,6 +52,6 @@ e7bab76ef15493aaee6f91a0652ba098838a0bfb@kichain-peer.panthea.eu:28656
 
 [https://kichain-rpc.panthea.eu](https://kichain-rpc.panthea.eu)
 
-## REST Endpoint
+## REST/API Endpoint
 
 [https://kichain-api.panthea.eu](https://kichain-api.panthea.eu)
