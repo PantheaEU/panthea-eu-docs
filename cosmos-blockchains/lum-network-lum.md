@@ -26,9 +26,17 @@ sudo systemctl start lumd
 
 [https://valhalla.panthea.eu/addrbooks/lum/addrbook.json](https://valhalla.panthea.eu/addrbooks/lum/addrbook.json)
 
+```bash
+curl -Ls https://valhalla.panthea.eu/addrbooks/lum/addrbook.json > $HOME/.lumd/config/addrbook.json
+```
+
 ## Genesis file
 
 [https://valhalla.panthea.eu/genesis/lum/genesis.json](https://valhalla.panthea.eu/genesis/lum/genesis.json)
+
+```bash
+curl -Ls https://valhalla.panthea.eu/genesis/lum/genesis.json > $HOME/.lumd/config/genesis.json
+```
 
 ## Persistent Peer
 
@@ -41,3 +49,11 @@ sudo systemctl start lumd
 ```url
 0df233b1eb62504f96a856ce358014b2fb8ce91b@lum-seed.panthea.eu:43656
 ```
+
+## RPC Endpoint
+
+[https://lum-rpc.panthea.eu/](https://lum-rpc.panthea.eu/)
+
+## REST/API Endpoint
+
+[https://lum-api.panthea.eu/](https://lum-api.panthea.eu/)
