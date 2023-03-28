@@ -55,3 +55,11 @@ curl -Ls https://valhalla.panthea.eu/genesis/desmos/genesis.json > $HOME/.desmos
 ```url
 73fc6b8b41aada42306b2f149619cc0ff935a868@desmos-seed.panthea.eu:39656
 ```
+
+## RPC Endpoint
+
+[https://desmos-rpc.panthea.eu/](https://desmos-rpc.panthea.eu/)
+
+## REST/API Endpoint
+
+[https://desmos-api.panthea.eu/](https://desmos-api.panthea.eu/)
