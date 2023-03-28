@@ -47,3 +47,11 @@ sudo systemctl start bitsongd
 ```url
 8defec7d0eec97f507411e02fd2634e3efc997a2@bitsong-seed.panthea.eu:41656
 ```
+
+## RPC Endpoint
+
+[https://bitsong-rpc.panthea.eu/](https://bitsong-rpc.panthea.eu/)
+
+## REST/API Endpoint
+
+[https://bitsong-api.panthea.eu/](https://bitsong-api.panthea.eu/)

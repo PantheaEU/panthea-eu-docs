@@ -41,3 +41,11 @@ sudo systemctl start bcnad
 ```url
 f0e6c86d769bf5c52f78e01864091690e731643f@bitcanna-seed.panthea.eu:37656
 ```
+
+## RPC Endpoint
+
+[https://bitcanna-rpc.panthea.eu/](https://bitcanna-rpc.panthea.eu/)
+
+## REST/API Endpoint
+
+[https://bitcanna-api.panthea.eu/](https://bitcanna-api.panthea.eu/)
