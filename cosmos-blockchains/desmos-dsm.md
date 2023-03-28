@@ -32,9 +32,17 @@ sudo systemctl start desmosd
 
 [https://valhalla.panthea.eu/addrbooks/desmos/addrbook.json](https://valhalla.panthea.eu/addrbooks/desmos/addrbook.json)
 
+```bash
+curl -Ls https://valhalla.panthea.eu/addrbooks/desmos/addrbook.json > $HOME/.desmos/config/addrbook.json
+```
+
 ## Genesis file
 
 [https://valhalla.panthea.eu/genesis/desmos/genesis.json](https://valhalla.panthea.eu/genesis/desmos/genesis.json)
+
+```bash
+curl -Ls https://valhalla.panthea.eu/genesis/desmos/genesis.json > $HOME/.desmos/config/genesis.json
+```
 
 ## Persistent Peer
 
