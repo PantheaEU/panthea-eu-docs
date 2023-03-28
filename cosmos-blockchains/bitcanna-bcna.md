@@ -26,9 +26,17 @@ sudo systemctl start bcnad
 
 [https://valhalla.panthea.eu/addrbooks/bitcanna/addrbook.json](https://valhalla.panthea.eu/addrbooks/bitcanna/addrbook.json)&#x20;
 
+```bash
+curl -Ls https://valhalla.panthea.eu/addrbooks/bitcanna/addrbook.json > $HOME/.bcna/config/addrbook.json
+```
+
 ## Genesis file
 
 [https://valhalla.panthea.eu/genesis/bitcanna/genesis.json](https://valhalla.panthea.eu/genesis/bitcanna/genesis.json)
+
+```bash
+curl -Ls https://valhalla.panthea.eu/genesis/bitcanna/genesis.json > $HOME/.bcna/config/genesis.json
+```
 
 ## Persistent Peer
 

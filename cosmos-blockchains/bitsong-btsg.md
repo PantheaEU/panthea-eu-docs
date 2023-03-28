@@ -32,9 +32,17 @@ sudo systemctl start bitsongd
 
 [https://valhalla.panthea.eu/addrbooks/bitsong/addrbook.json](https://valhalla.panthea.eu/addrbooks/bitsong/addrbook.json)
 
+```bash
+curl -Ls https://valhalla.panthea.eu/addrbooks/bitsong/addrbook.json > $HOME/.bitsongd/config/addrbook.json
+```
+
 ## Genesis file
 
 [https://valhalla.panthea.eu/genesis/bitsong/genesis.json](https://valhalla.panthea.eu/genesis/bitsong/genesis.json)
+
+```bash
+curl -Ls https://valhalla.panthea.eu/genesis/bitsong/genesis.json > $HOME/.bitsongd/config/genesis.json
+```
 
 ## Persistent Peer
 
