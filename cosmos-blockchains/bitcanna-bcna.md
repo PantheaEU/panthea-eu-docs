@@ -4,7 +4,7 @@ description: Decentralized payment network and supply chain for legal cannabis i
 
 # BitCanna (BCNA)
 
-## Snapshot (Max. 6 hours old)
+## Snapshot (Max. 4 hours old)
 
 **Pruning**: custom/100/0/10 - **Indexer**: null
 
@@ -22,7 +22,7 @@ mv $HOME/.bcna/priv_validator_state.json.backup $HOME/.bcna/data/priv_validator_
 sudo systemctl start bcnad
 ```
 
-## Addrbook (Updated 4 times a day)
+## Addrbook (Updated 6 times a day)
 
 [https://valhalla.panthea.eu/addrbooks/bitcanna/addrbook.json](https://valhalla.panthea.eu/addrbooks/bitcanna/addrbook.json)&#x20;
 

@@ -6,7 +6,7 @@ description: >-
 
 # Ki Chain (XKI)
 
-## Snapshot (Max. 6 hours old)
+## Snapshot (Max. 4 hours old)
 
 **Pruning**: custom/100/0/10 - **Indexer**: null
 
@@ -24,11 +24,11 @@ mv $HOME/.kid/priv_validator_state.json.backup $HOME/.kid/data/priv_validator_st
 sudo systemctl start kid
 ```
 
-## Wasm only (Max. 6 hours old)
+## Wasm only (Max. 4 hours old)
 
 [https://valhalla.panthea.eu/snapshots/kichain-wasm.tar.lz4](https://valhalla.panthea.eu/snapshots/kichain-wasm.tar.lz4)
 
-## Addrbook (Updated 4 times a day)
+## Addrbook (Updated 6 times a day)
 
 [https://valhalla.panthea.eu/addrbooks/kichain/addrbook.json](https://valhalla.panthea.eu/addrbooks/kichain/addrbook.json)
 

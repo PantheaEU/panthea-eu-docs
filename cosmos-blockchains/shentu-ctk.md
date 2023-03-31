@@ -6,7 +6,7 @@ description: >-
 
 # Shentu (CTK)
 
-## Snapshot (Max. 6 hours old)
+## Snapshot (Max. 4 hours old)
 
 **Pruning**: custom/100/0/10 - **Indexer**: null
 
@@ -24,7 +24,7 @@ mv $HOME/.shentud/priv_validator_state.json.backup $HOME/.shentud/data/priv_vali
 sudo systemctl start shentud
 ```
 
-## Addrbook (Updated 4 times a day)
+## Addrbook (Updated 6 times a day)
 
 [https://valhalla.panthea.eu/addrbooks/shentu/addrbook.json](https://valhalla.panthea.eu/addrbooks/shentu/addrbook.json)
 
