@@ -44,7 +44,7 @@ sudo systemctl stop bcnad
 
 cp $HOME/.bcna/data/priv_validator_state.json $HOME/.bcna/priv_validator_state.json.backup
 
-bcnad tendermint unsafe-reset-all --keep-addr-book --home "$HEOME/.bcna"
+bcnad tendermint unsafe-reset-all --keep-addr-book --home "$HOME/.bcna"
 
 mv $HOME/.bcna/priv_validator_state.json.backup $HOME/.bcna/data/priv_validator_state.json
 
