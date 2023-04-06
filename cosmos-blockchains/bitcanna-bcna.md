@@ -4,6 +4,24 @@ description: Decentralized payment network and supply chain for legal cannabis i
 
 # BitCanna (BCNA)
 
+## Snapshot (Max. 4 hours old)
+
+**Pruning**: custom/100/0/10 - **Indexer**: null
+
+```bash
+sudo systemctl stop bcnad
+
+cp $HOME/.bcna/data/priv_validator_state.json $HOME/.bcna/priv_validator_state.json.backup
+
+rm -rf $HOME/.bcna/data
+
+curl -o - -L https://valhalla.panthea.eu/snapshots/bitcanna-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.bcna
+
+mv $HOME/.bcna/priv_validator_state.json.backup $HOME/.bcna/data/priv_validator_state.json
+
+sudo systemctl start bcnad
+```
+
 ## State Sync
 
 Remember to add our peer:\
@@ -27,24 +45,6 @@ sudo systemctl stop bcnad
 cp $HOME/.bcna/data/priv_validator_state.json $HOME/.bcna/priv_validator_state.json.backup
 
 bcnad tendermint unsafe-reset-all --keep-addr-book --home "$HEOME/.bcna"
-
-mv $HOME/.bcna/priv_validator_state.json.backup $HOME/.bcna/data/priv_validator_state.json
-
-sudo systemctl start bcnad
-```
-
-## Snapshot (Max. 4 hours old)
-
-**Pruning**: custom/100/0/10 - **Indexer**: null
-
-```bash
-sudo systemctl stop bcnad
-
-cp $HOME/.bcna/data/priv_validator_state.json $HOME/.bcna/priv_validator_state.json.backup
-
-rm -rf $HOME/.bcna/data
-
-curl -o - -L https://valhalla.panthea.eu/snapshots/bitcanna-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.bcna
 
 mv $HOME/.bcna/priv_validator_state.json.backup $HOME/.bcna/data/priv_validator_state.json
 
