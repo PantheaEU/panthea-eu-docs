@@ -6,7 +6,9 @@ description: Decentralized payment network and supply chain for legal cannabis i
 
 ## State Sync
 
-Remember to add: **0a658df9d9fab096983a12e6f878e87281a15ce6@bitcanna-peer.panthea.eu:27656** to persistent\_peers in config.toml first.
+Remember to add our peer:\
+**0a658df9d9fab096983a12e6f878e87281a15ce6@bitcanna-peer.panthea.eu:27656**\
+to persistent\_peers in config.toml before doing the State Sync.
 
 ```bash
 SNAP_RPC="https://bitcanna-rpc.panthea.eu:443"
@@ -20,7 +22,7 @@ s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$SNAP_RPC,$SNAP_RPC\"| ; \
 s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
 s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $HOME/.bcna/config/config.toml
 
-systemctl stop bcnad
+sudo systemctl stop bcnad
 
 cp $HOME/.bcna/data/priv_validator_state.json $HOME/.bcna/priv_validator_state.json.backup
 
@@ -28,8 +30,7 @@ bcnad tendermint unsafe-reset-all --keep-addr-book --home "$HEOME/.bcna"
 
 mv $HOME/.bcna/priv_validator_state.json.backup $HOME/.bcna/data/priv_validator_state.json
 
-systemctl start bcnad
-
+sudo systemctl start bcnad
 ```
 
 ## Snapshot (Max. 4 hours old)
