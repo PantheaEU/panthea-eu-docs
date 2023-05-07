@@ -14,6 +14,14 @@ description: >-
 curl -Ls https://valhalla.panthea.eu/addrbooks/osmosis/addrbook.json > $HOME/.osmosisd/config/addrbook.json
 ```
 
+## Genesis file
+
+[https://valhalla.panthea.eu/genesis/osmosis/genesis.json](https://valhalla.panthea.eu/genesis/osmosis/genesis.json)
+
+```url
+curl -Ls https://valhalla.panthea.eu/genesis/osmosis/genesis.json > $HOME/.osmosisd/config/genesis.json
+```
+
 ## Persistent Peer
 
 ```url
