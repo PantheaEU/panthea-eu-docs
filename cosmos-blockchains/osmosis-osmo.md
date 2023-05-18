@@ -14,20 +14,6 @@ description: >-
 curl -Ls https://valhalla.panthea.eu/addrbooks/osmosis/addrbook.json > $HOME/.osmosisd/config/addrbook.json
 ```
 
-## Genesis file
-
-[https://valhalla.panthea.eu/genesis/osmosis/genesis.json](https://valhalla.panthea.eu/genesis/osmosis/genesis.json)
-
-```url
-curl -Ls https://valhalla.panthea.eu/genesis/osmosis/genesis.json > $HOME/.osmosisd/config/genesis.json
-```
-
-## Persistent Peer
-
-```url
-d3ec70517e584865b3863ca39cc7ac5c8ca964bb@osmosis-peer.panthea.eu:26656
-```
-
 ## Seed Node
 
 ```url
