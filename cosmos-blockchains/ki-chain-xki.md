@@ -57,6 +57,12 @@ sudo systemctl start kid
 
 [https://valhalla.panthea.eu/snapshots/kichain-wasm.tar.lz4](https://valhalla.panthea.eu/snapshots/kichain-wasm.tar.lz4)
 
+```bash
+rm -rf $HOME/.kid/wasm
+
+curl -o - -L https://valhalla.panthea.eu/snapshots/kichain-wasm.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.kid/
+```
+
 ## Addrbook (Updated 6 times a day)
 
 [https://valhalla.panthea.eu/addrbooks/kichain/addrbook.json](https://valhalla.panthea.eu/addrbooks/kichain/addrbook.json)
