@@ -57,7 +57,9 @@ sudo systemctl start desmosd
 
 [https://valhalla.panthea.eu/snapshots/desmos-wasm.tar.lz4](https://valhalla.panthea.eu/snapshots/desmos-wasm.tar.lz4)
 
-```
+```bash
+rm -rf $HOME/.desmos/wasm
+
 curl -o - -L https://valhalla.panthea.eu/snapshots/desmos-wasm.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.desmos/
 ```
 
