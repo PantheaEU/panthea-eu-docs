@@ -59,6 +59,10 @@ sudo systemctl start bitsongd
 
 [https://valhalla.panthea.eu/snapshots/bitsong-wasm.tar.lz4](https://valhalla.panthea.eu/snapshots/bitsong-wasm.tar.lz4)
 
+```bash
+curl -o - -L https://valhalla.panthea.eu/snapshots/bitsong-wasm.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.bitsongd/data/
+```
+
 ## Addrbook (Updated 6 times a day)
 
 [https://valhalla.panthea.eu/addrbooks/bitsong/addrbook.json](https://valhalla.panthea.eu/addrbooks/bitsong/addrbook.json)
