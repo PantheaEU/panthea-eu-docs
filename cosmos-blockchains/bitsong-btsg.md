@@ -50,6 +50,8 @@ bitsongd tendermint unsafe-reset-all --keep-addr-book --home "$HOME/.bitsongd"
 
 mv $HOME/.bitsongd/priv_validator_state.json.backup $HOME/.bitsongd/data/priv_validator_state.json
 
+curl -o - -L https://valhalla.panthea.eu/snapshots/bitsong-wasm.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.bitsongd/data/
+
 sudo systemctl start bitsongd
 ```
 
