@@ -26,6 +26,10 @@ sudo systemctl start shentud
 
 ## State Sync
 
+Remember to add our peer:\
+**207c47bed435e4174844064ef3f51ca35b059de2@shentu-peer.panthea.eu:26656**\
+to persistent\_peers in config.toml before doing the State Sync.
+
 ```bash
 SNAP_RPC="https://shentu-rpc.panthea.eu:443"
 
