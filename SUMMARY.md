@@ -12,4 +12,5 @@
 * [Desmos (DSM)](cosmos-blockchains/desmos-dsm.md)
 * [Ki Chain (XKI)](cosmos-blockchains/ki-chain-xki.md)
 * [Lum Network (LUM)](cosmos-blockchains/lum-network-lum.md)
+* [Osmosis (OSMO)](cosmos-blockchains/osmosis-osmo.md)
 * [Shentu (CTK)](cosmos-blockchains/shentu-ctk.md)
