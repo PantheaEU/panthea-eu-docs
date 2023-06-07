@@ -63,7 +63,7 @@ rm -rf $HOME/.kid/wasm
 curl -o - -L https://valhalla.panthea.eu/snapshots/kichain-wasm.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.kid/
 ```
 
-## Addrbook (Updated 6 times a day)
+## Addrbook (Updated every hour)
 
 [https://valhalla.panthea.eu/addrbooks/kichain/addrbook.json](https://valhalla.panthea.eu/addrbooks/kichain/addrbook.json)
 

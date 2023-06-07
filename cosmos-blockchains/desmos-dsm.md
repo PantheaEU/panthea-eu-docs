@@ -63,7 +63,7 @@ rm -rf $HOME/.desmos/wasm
 curl -o - -L https://valhalla.panthea.eu/snapshots/desmos-wasm.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.desmos/
 ```
 
-## Addrbook (Updated 6 times a day)
+## Addrbook (Updated every hour)
 
 [https://valhalla.panthea.eu/addrbooks/desmos/addrbook.json](https://valhalla.panthea.eu/addrbooks/desmos/addrbook.json)
 

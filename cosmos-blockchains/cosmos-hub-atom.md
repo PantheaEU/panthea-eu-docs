@@ -6,7 +6,7 @@ description: >-
 
 # Cosmos Hub (ATOM)
 
-## Addrbook (Updated 6 times a day)
+## Addrbook (Updated every hour)
 
 [https://valhalla.panthea.eu/addrbooks/cosmos/addrbook.json](https://valhalla.panthea.eu/addrbooks/cosmos/addrbook.json)
 
