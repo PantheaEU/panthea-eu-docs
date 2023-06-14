@@ -33,3 +33,11 @@ f28607c2476a5634328b58fa189f26dda8c9c236@cosmos-peer.panthea.eu:30656
 ```url
 8fdb467a66ac802a9f2d5f7a1ca484d8209ea755@cosmos-seed.panthea.eu:40656
 ```
+
+## RPC Endpoint
+
+[https://cosmos-rpc.panthea.eu/](https://cosmos-rpc.panthea.eu/)
+
+## REST/API Endpoint
+
+[https://cosmos-api.panthea.eu/](https://cosmos-api.panthea.eu/)
