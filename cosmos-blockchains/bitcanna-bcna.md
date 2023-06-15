@@ -24,10 +24,6 @@ sudo systemctl start bcnad
 
 ## State Sync
 
-Remember to add our peer:\
-**0a658df9d9fab096983a12e6f878e87281a15ce6@bitcanna-peer.panthea.eu:27656**\
-to persistent\_peers in config.toml before doing the State Sync.
-
 ```bash
 SNAP_RPC="https://bitcanna-rpc.panthea.eu:443"
 

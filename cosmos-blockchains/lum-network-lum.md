@@ -24,10 +24,6 @@ sudo systemctl start lumd
 
 ## State Sync
 
-Remember to add our peer:\
-**43216584c1e6b1056566a4825b15cdfbfc79d9e8@lum-peer.panthea.eu:33656**\
-to persistent\_peers in config.toml before doing the State Sync.
-
 ```bash
 SNAP_RPC="https://lum-rpc.panthea.eu:443"
 

@@ -26,10 +26,6 @@ sudo systemctl start desmosd
 
 ## State Sync
 
-Remember to add our peer:\
-**7c506d9e32cfc486ea714ee0c0307022398b8c20@desmos-peer.panthea.eu:29656**\
-to persistent\_peers in config.toml before doing the State Sync.
-
 ```bash
 SNAP_RPC="https://desmos-rpc.panthea.eu:443"
 

@@ -26,10 +26,6 @@ sudo systemctl start kid
 
 ## State Sync
 
-Remember to add our peer:\
-**e7bab76ef15493aaee6f91a0652ba098838a0bfb@kichain-peer.panthea.eu:28656**\
-to persistent\_peers in config.toml before doing the State Sync.
-
 ```bash
 SNAP_RPC="https://kichain-rpc.panthea.eu:443"
 

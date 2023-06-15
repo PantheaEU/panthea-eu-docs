@@ -26,10 +26,6 @@ sudo systemctl start bitsongd
 
 ## State Sync
 
-Remember to add our peer:\
-**2cd6bb75fc9279c62c0ef3af82fbe08632743472@bitsong-peer.panthea.eu:31656**\
-to persistent\_peers in config.toml before doing the State Sync.
-
 ```bash
 SNAP_RPC="https://bitsong-rpc.panthea.eu:443"
 
