@@ -8,6 +8,8 @@ description: >-
 
 ## Addrbook (Updated every hour)
 
+[https://valhalla.panthea.eu/addrbooks/provenance/addrbook.json](https://valhalla.panthea.eu/addrbooks/provenance/addrbook.json)
+
 ```bash
 curl -Ls https://valhalla.panthea.eu/addrbooks/provenance/addrbook.json > $HOME/.provenanced/config/addrbook.json
 ```
