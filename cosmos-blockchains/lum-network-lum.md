@@ -71,9 +71,11 @@ curl -Ls https://valhalla.panthea.eu/genesis/lum/genesis.json > $HOME/.lumd/conf
 
 ## Seed Node
 
+{% code fullWidth="false" %}
 ```url
 0df233b1eb62504f96a856ce358014b2fb8ce91b@lum-seed.panthea.eu:43656
 ```
+{% endcode %}
 
 ## RPC Endpoint
 
