@@ -4,7 +4,7 @@ description: A Cosmos SDK-based blockchain designed for on-chain user reviews an
 
 # Lum Network (LUM)
 
-## Snapshot (Max. 4 hours old)
+## Snapshot (Max. 4 hours old) <a href="#snapshot" id="snapshot"></a>
 
 **Pruning**: custom/100/0/10 - **Indexer**: null
 
@@ -47,7 +47,7 @@ mv $HOME/.lumd/priv_validator_state.json.backup $HOME/.lumd/data/priv_validator_
 sudo systemctl start lumd
 ```
 
-## Addrbook (Updated every hour)
+## Addrbook (Updated every hour) <a href="#addrbook" id="addrbook"></a>
 
 [https://valhalla.panthea.eu/addrbooks/lum/addrbook.json](https://valhalla.panthea.eu/addrbooks/lum/addrbook.json)
 

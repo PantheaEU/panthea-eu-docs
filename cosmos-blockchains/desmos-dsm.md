@@ -6,7 +6,7 @@ description: >-
 
 # Desmos (DSM)
 
-## Snapshot (Max. 4 hours old)
+## Snapshot (Max. 4 hours old) <a href="#snapshot" id="snapshot"></a>
 
 **Pruning**: custom/100/0/10 - **Indexer**: null
 
@@ -49,7 +49,7 @@ mv $HOME/.desmos/priv_validator_state.json.backup $HOME/.desmos/data/priv_valida
 sudo systemctl start desmosd
 ```
 
-## Wasm only (Max. 4 hours old)
+## Wasm only (Max. 4 hours old) <a href="#wasm-only" id="wasm-only"></a>
 
 [https://valhalla.panthea.eu/snapshots/desmos-wasm.tar.lz4](https://valhalla.panthea.eu/snapshots/desmos-wasm.tar.lz4)
 
@@ -59,7 +59,7 @@ rm -rf $HOME/.desmos/wasm
 curl -o - -L https://valhalla.panthea.eu/snapshots/desmos-wasm.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.desmos/
 ```
 
-## Addrbook (Updated every hour)
+## Addrbook (Updated every hour) <a href="#addrbook" id="addrbook"></a>
 
 [https://valhalla.panthea.eu/addrbooks/desmos/addrbook.json](https://valhalla.panthea.eu/addrbooks/desmos/addrbook.json)
 
