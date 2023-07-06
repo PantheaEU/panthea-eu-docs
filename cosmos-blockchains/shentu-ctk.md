@@ -6,7 +6,7 @@ description: >-
 
 # Shentu (CTK)
 
-## Snapshot (Max. 4 hours old)
+## Snapshot (Max. 4 hours old) <a href="#snapshot" id="snapshot"></a>
 
 **Pruning**: custom/100/0/10 - **Indexer**: null
 
