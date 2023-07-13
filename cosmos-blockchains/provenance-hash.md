@@ -22,6 +22,12 @@ curl -Ls https://valhalla.panthea.eu/addrbooks/provenance/addrbook.json > $HOME/
 curl -Ls https://valhalla.panthea.eu/genesis/provenanced/genesis.json > $HOME/.provenanced/config/genesis.json
 ```
 
+## Persistent Peer
+
+```uri
+aa808927715ad82be258605060c21fc5afc1cd00@provenance-peer.panthea.eu:34656
+```
+
 ## Seed Node
 
 ```url
