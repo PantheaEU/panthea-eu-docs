@@ -16,10 +16,10 @@ curl -Ls https://valhalla.panthea.eu/addrbooks/provenance/addrbook.json > $HOME/
 
 ## Genesis file
 
-[https://valhalla.panthea.eu/genesis/provenanced/genesis.json](https://valhalla.panthea.eu/genesis/provenanced/genesis.json)
+[https://valhalla.panthea.eu/genesis/provenance/genesis.json](https://valhalla.panthea.eu/genesis/provenance/genesis.json)
 
 ```bash
-curl -Ls https://valhalla.panthea.eu/genesis/provenanced/genesis.json > $HOME/.provenanced/config/genesis.json
+curl -Ls https://valhalla.panthea.eu/genesis/provenance/genesis.json > $HOME/.provenanced/config/genesis.json
 ```
 
 ## Persistent Peer
