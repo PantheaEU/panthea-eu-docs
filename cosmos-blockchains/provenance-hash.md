@@ -33,3 +33,11 @@ aa808927715ad82be258605060c21fc5afc1cd00@provenance-peer.panthea.eu:34656
 ```url
 ad3386812bb9f2fee4e9da6d9f37547afc948977@provenance-seed.panthea.eu:42656
 ```
+
+## RPC Endpoint
+
+[https://provenance-rpc.panthea.eu/](https://provenance-rpc.panthea.eu/)
+
+## REST/API Endpoint
+
+[https://provenance-api.panthea.eu/](https://provenance-api.panthea.eu/)
