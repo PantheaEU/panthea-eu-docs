@@ -14,14 +14,6 @@ description: >-
 curl -Ls https://valhalla.panthea.eu/addrbooks/cosmos/addrbook.json > $HOME/.gaia/config/addrbook.json
 ```
 
-## Genesis file
-
-[https://valhalla.panthea.eu/genesis/cosmos/genesis.json](https://valhalla.panthea.eu/genesis/cosmos/genesis.json)
-
-```bash
-curl -Ls https://valhalla.panthea.eu/genesis/cosmos/genesis.json > $HOME/.gaia/config/genesis.json
-```
-
 ## Persistent Peer
 
 ```url
