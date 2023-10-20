@@ -6,6 +6,16 @@ description: >-
 
 # Provenance (HASH)
 
+## Wasm only (Max. 4 hours old) <a href="#wasm-only" id="wasm-only"></a>
+
+[https://valhalla.panthea.eu/snapshots/provenance-wasm.tar.lz4](https://valhalla.panthea.eu/snapshots/provenance-wasm.tar.lz4)
+
+```bash
+rm -rf $HOME/.provenanced/data/wasm
+
+curl -o - -L https://valhalla.panthea.eu/snapshots/provenance-wasm.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.provenanced/data/
+```
+
 ## Addrbook (Updated every hour) <a href="#addrbook" id="addrbook"></a>
 
 [https://valhalla.panthea.eu/addrbooks/provenance/addrbook.json](https://valhalla.panthea.eu/addrbooks/provenance/addrbook.json)
