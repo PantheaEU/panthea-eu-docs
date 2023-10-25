@@ -62,6 +62,10 @@ curl -Ls https://valhalla.panthea.eu/genesis/bitsong/genesis.json > $HOME/.bitso
 8defec7d0eec97f507411e02fd2634e3efc997a2@bitsong-seed.panthea.eu:41656
 ```
 
+## gRPC Endpoint
+
+bitsong-grpc.panthea.eu:16750
+
 ## RPC Endpoint
 
 [https://bitsong-rpc.panthea.eu/](https://bitsong-rpc.panthea.eu/)

@@ -6,7 +6,7 @@ description: >-
 
 # Provenance (HASH)
 
-## Wasm only (Max. 4 hours old) <a href="#wasm-only" id="wasm-only"></a>
+Wasm only (Max. 4 hours old)
 
 [https://valhalla.panthea.eu/snapshots/provenance-wasm.tar.lz4](https://valhalla.panthea.eu/snapshots/provenance-wasm.tar.lz4)
 
@@ -43,6 +43,10 @@ aa808927715ad82be258605060c21fc5afc1cd00@provenance-peer.panthea.eu:34656
 ```url
 ad3386812bb9f2fee4e9da6d9f37547afc948977@provenance-seed.panthea.eu:42656
 ```
+
+## gRPC Endpoint
+
+provenance-grpc.panthea.eu:16780
 
 ## RPC Endpoint
 

@@ -62,6 +62,10 @@ e7bab76ef15493aaee6f91a0652ba098838a0bfb@kichain-peer.panthea.eu:28656
 8edd80b2e7e807af9617d643dcbf5125425cab68@kichain-seed.panthea.eu:38656
 ```
 
+## gRPC Endpoint
+
+kichain-grpc.panthea.eu:16720
+
 ## RPC Endpoint
 
 [https://kichain-rpc.panthea.eu](https://kichain-rpc.panthea.eu)

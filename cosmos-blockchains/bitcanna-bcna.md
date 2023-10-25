@@ -75,6 +75,10 @@ curl -Ls https://valhalla.panthea.eu/genesis/bitcanna/genesis.json > $HOME/.bcna
 f0e6c86d769bf5c52f78e01864091690e731643f@bitcanna-seed.panthea.eu:37656
 ```
 
+## gRPC Endpoint
+
+bitcanna-grpc.panthea.eu:16710
+
 ## RPC Endpoint
 
 [https://bitcanna-rpc.panthea.eu/](https://bitcanna-rpc.panthea.eu/)

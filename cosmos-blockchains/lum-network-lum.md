@@ -52,6 +52,10 @@ curl -Ls https://valhalla.panthea.eu/genesis/lum/genesis.json > $HOME/.lumd/conf
 ```
 {% endcode %}
 
+## gRPC Endpoint
+
+lum-grpc.panthea.eu:16770
+
 ## RPC Endpoint
 
 [https://lum-rpc.panthea.eu/](https://lum-rpc.panthea.eu/)

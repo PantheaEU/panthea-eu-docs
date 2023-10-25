@@ -52,6 +52,10 @@ curl -Ls https://valhalla.panthea.eu/genesis/shentu/genesis.json > $HOME/.shentu
 3edd4e16b791218b623f883d04f8aa5c3ff2cca6@shentu-seed.panthea.eu:36656
 ```
 
+## gRPC Endpoint
+
+shentu-grpc.panthea.eu:16700
+
 ## RPC Endpoint
 
 [https://shentu-rpc.panthea.eu/](https://shentu-rpc.panthea.eu/)
