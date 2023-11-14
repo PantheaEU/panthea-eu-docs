@@ -6,24 +6,6 @@ description: >-
 
 # Shentu (CTK)
 
-## Snapshot (Max. 4 hours old) <a href="#snapshot" id="snapshot"></a>
-
-**Pruning**: custom/100/0/10 - **Indexer**: null
-
-```bash
-sudo systemctl stop shentud
-
-cp $HOME/.shentud/data/priv_validator_state.json $HOME/.shentud/priv_validator_state.json.backup
-
-rm -rf $HOME/.shentud/data
-
-curl -o - -L https://valhalla.panthea.eu/snapshots/shentu-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.shentud
-
-mv $HOME/.shentud/priv_validator_state.json.backup $HOME/.shentud/data/priv_validator_state.json
-
-sudo systemctl start shentud
-```
-
 ## Addrbook (Updated every hour)
 
 [https://valhalla.panthea.eu/addrbooks/shentu/addrbook.json](https://valhalla.panthea.eu/addrbooks/shentu/addrbook.json)
