@@ -6,34 +6,6 @@ description: >-
 
 # BitSong (BTSG)
 
-## Snapshot (Max. 4 hours old) <a href="#snapshot" id="snapshot"></a>
-
-**Pruning**: custom/100/0/10 - **Indexer**: null
-
-```bash
-sudo systemctl stop bitsongd
-
-cp $HOME/.bitsongd/data/priv_validator_state.json $HOME/.bitsongd/priv_validator_state.json.backup
-
-rm -rf $HOME/.bitsongd/data
-
-curl -o - -L https://valhalla.panthea.eu/snapshots/bitsong-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.bitsongd
-
-mv $HOME/.bitsongd/priv_validator_state.json.backup $HOME/.bitsongd/data/priv_validator_state.json
-
-sudo systemctl start bitsongd
-```
-
-## Wasm only (Max. 4 hours old) <a href="#wasm-only" id="wasm-only"></a>
-
-[https://valhalla.panthea.eu/snapshots/bitsong-wasm.tar.lz4](https://valhalla.panthea.eu/snapshots/bitsong-wasm.tar.lz4)
-
-```bash
-rm -rf $HOME/.bitsongd/data/wasm
-
-curl -o - -L https://valhalla.panthea.eu/snapshots/bitsong-wasm.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.bitsongd/data/
-```
-
 ## Addrbook (Updated every hour) <a href="#addrbook" id="addrbook"></a>
 
 [https://valhalla.panthea.eu/addrbooks/bitsong/addrbook.json](https://valhalla.panthea.eu/addrbooks/bitsong/addrbook.json)

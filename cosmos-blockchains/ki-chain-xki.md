@@ -6,34 +6,6 @@ description: >-
 
 # Ki Chain (XKI)
 
-## Snapshot (Max. 4 hours old) <a href="#snapshot" id="snapshot"></a>
-
-**Pruning**: custom/100/0/10 - **Indexer**: null
-
-```bash
-sudo systemctl stop kid
-
-cp $HOME/.kid/data/priv_validator_state.json $HOME/.kid/priv_validator_state.json.backup
-
-rm -rf $HOME/.kid/data $HOME/.kid/wasm
-
-curl -o - -L https://valhalla.panthea.eu/snapshots/kichain-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.kid
-
-mv $HOME/.kid/priv_validator_state.json.backup $HOME/.kid/data/priv_validator_state.json
-
-sudo systemctl start kid
-```
-
-## Wasm only (Max. 4 hours old) <a href="#wasm-only" id="wasm-only"></a>
-
-[https://valhalla.panthea.eu/snapshots/kichain-wasm.tar.lz4](https://valhalla.panthea.eu/snapshots/kichain-wasm.tar.lz4)
-
-```bash
-rm -rf $HOME/.kid/wasm
-
-curl -o - -L https://valhalla.panthea.eu/snapshots/kichain-wasm.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.kid/
-```
-
 ## Addrbook (Updated every hour) <a href="#addrbook" id="addrbook"></a>
 
 [https://valhalla.panthea.eu/addrbooks/kichain/addrbook.json](https://valhalla.panthea.eu/addrbooks/kichain/addrbook.json)
