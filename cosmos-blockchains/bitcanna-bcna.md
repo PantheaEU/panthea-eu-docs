@@ -4,7 +4,7 @@ description: Decentralized payment network and supply chain for legal cannabis i
 
 # BitCanna (BCNA)
 
-## Snapshot (Max. 4 hours old)
+## Snapshot (Max. 4 hours old) <a href="#snapshot" id="snapshot"></a>
 
 ```bash
 sudo systemctl stop bcnad
