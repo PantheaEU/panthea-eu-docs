@@ -4,7 +4,7 @@ description: A Cosmos SDK-based blockchain designed for on-chain user reviews an
 
 # Lum Network (LUM)
 
-## Snapshot (Max. 4 hours old)
+## Snapshot (Max. 4 hours old) <a href="#snapshot" id="snapshot"></a>
 
 ```bash
 sudo systemctl stop lumd
