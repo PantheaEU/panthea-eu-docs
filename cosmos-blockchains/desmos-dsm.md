@@ -6,6 +6,22 @@ description: >-
 
 # Desmos (DSM)
 
+## Snapshot (Max. 4 hours old)
+
+```bash
+sudo systemctl stop desmosd
+
+cp $HOME/.desmos/data/priv_validator_state.json $HOME/.desmos/priv_validator_state.json.backup
+
+rm -rf $HOME/.desmos/data
+
+curl -o - -L https://valhalla.panthea.eu/snapshots/desmos-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.desmos
+
+mv $HOME/.desmos/priv_validator_state.json.backup $HOME/.desmos/data/priv_validator_state.json
+
+sudo systemctl start desmosd
+```
+
 ## Wasm only (Max. 4 hours old) <a href="#wasm-only" id="wasm-only"></a>
 
 [https://valhalla.panthea.eu/snapshots/desmos-wasm.tar.lz4](https://valhalla.panthea.eu/snapshots/desmos-wasm.tar.lz4)
