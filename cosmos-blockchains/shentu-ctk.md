@@ -6,22 +6,6 @@ description: >-
 
 # Shentu (CTK)
 
-## Snapshot (Max. 4 hours old) <a href="#snapshot" id="snapshot"></a>
-
-```bash
-sudo systemctl stop shentud
-
-cp $HOME/.shentud/data/priv_validator_state.json $HOME/.shentud/priv_validator_state.json.backup
-
-rm -rf $HOME/.shentud/data
-
-curl -o - -L https://valhalla.panthea.eu/snapshots/shentu-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.shentud
-
-mv $HOME/.shentud/priv_validator_state.json.backup $HOME/.shentud/data/priv_validator_state.json
-
-sudo systemctl start shentud
-```
-
 ## State Sync
 
 ```bash
@@ -41,6 +25,22 @@ sudo systemctl stop shentud
 cp $HOME/.shentud/data/priv_validator_state.json $HOME/.shentud/priv_validator_state.json.backup
 
 shentud tendermint unsafe-reset-all --keep-addr-book --home "$HOME/.shentud"
+
+mv $HOME/.shentud/priv_validator_state.json.backup $HOME/.shentud/data/priv_validator_state.json
+
+sudo systemctl start shentud
+```
+
+## Snapshot (Max. 4 hours old) <a href="#snapshot" id="snapshot"></a>
+
+```bash
+sudo systemctl stop shentud
+
+cp $HOME/.shentud/data/priv_validator_state.json $HOME/.shentud/priv_validator_state.json.backup
+
+rm -rf $HOME/.shentud/data
+
+curl -o - -L https://valhalla.panthea.eu/snapshots/shentu-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.shentud
 
 mv $HOME/.shentud/priv_validator_state.json.backup $HOME/.shentud/data/priv_validator_state.json
 
