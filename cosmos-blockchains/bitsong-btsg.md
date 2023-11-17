@@ -6,6 +6,22 @@ description: >-
 
 # BitSong (BTSG)
 
+## Snapshot (Max. 4 hours old) <a href="#snapshot" id="snapshot"></a>
+
+```bash
+sudo systemctl stop bitsongd
+
+cp $HOME/.bitsongd/data/priv_validator_state.json $HOME/.bitsongd/priv_validator_state.json.backup
+
+rm -rf $HOME/.bitsongd/data
+
+curl -o - -L https://valhalla.panthea.eu/snapshots/bitsong-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.bitsongd
+
+mv $HOME/.bitsongd/priv_validator_state.json.backup $HOME/.bitsongd/data/priv_validator_state.json
+
+sudo systemctl start bitsongd
+```
+
 ## State Sync
 
 ```bash
