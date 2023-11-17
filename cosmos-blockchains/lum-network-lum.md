@@ -4,6 +4,22 @@ description: A Cosmos SDK-based blockchain designed for on-chain user reviews an
 
 # Lum Network (LUM)
 
+## Snapshot (Max. 4 hours old)
+
+```bash
+sudo systemctl stop lumd
+
+cp $HOME/.lumd/data/priv_validator_state.json $HOME/.lumd/priv_validator_state.json.backup
+
+rm -rf $HOME/.lumd/data
+
+curl -o - -L https://valhalla.panthea.eu/snapshots/lum-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.lumd
+
+mv $HOME/.lumd/priv_validator_state.json.backup $HOME/.lumd/data/priv_validator_state.json
+
+sudo systemctl start lumd
+```
+
 ## State Sync
 
 ```bash
