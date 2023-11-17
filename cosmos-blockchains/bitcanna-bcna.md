@@ -20,6 +20,16 @@ mv $HOME/.bcna/priv_validator_state.json.backup $HOME/.bcna/data/priv_validator_
 sudo systemctl start bcnad
 ```
 
+## Wasm only (Max. 4 hours old)
+
+[https://valhalla.panthea.eu/snapshots/kichain-wasm.tar.lz4](https://valhalla.panthea.eu/snapshots/kichain-wasm.tar.lz4)
+
+```bash
+rm -rf $HOME/.kid/wasm
+
+curl -o - -L https://valhalla.panthea.eu/snapshots/kichain-wasm.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.kid/
+```
+
 ## State Sync
 
 ```bash

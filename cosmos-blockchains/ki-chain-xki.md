@@ -6,6 +6,22 @@ description: >-
 
 # Ki Chain (XKI)
 
+## Snapshot (Max. 4 hours old)
+
+```bash
+sudo systemctl stop kid
+
+cp $HOME/.kid/data/priv_validator_state.json $HOME/.kid/priv_validator_state.json.backup
+
+rm -rf $HOME/.kid/data
+
+curl -o - -L https://valhalla.panthea.eu/snapshots/kichain-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.kid
+
+mv $HOME/.kid/priv_validator_state.json.backup $HOME/.kid/data/priv_validator_state.json
+
+sudo systemctl start kid
+```
+
 ## State Sync
 
 ```bash
