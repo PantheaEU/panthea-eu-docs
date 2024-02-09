@@ -1,7 +1,3 @@
----
-description: Decentralized payment network and supply chain for legal cannabis industry.
----
-
 # BitCanna (BCNA)
 
 ## Snapshot (Max. 4 hours old) <a href="#snapshot" id="snapshot"></a>

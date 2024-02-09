@@ -1,7 +1,3 @@
----
-description: A Cosmos SDK-based blockchain designed for on-chain user reviews and rewards.
----
-
 # Lum Network (LUM)
 
 ## Snapshot (Max. 4 hours old) <a href="#snapshot" id="snapshot"></a>

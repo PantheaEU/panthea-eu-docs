@@ -1,9 +1,3 @@
----
-description: >-
-  A Tendermint-based blockchain network designed to support financial service
-  industry.
----
-
 # Provenance (HASH)
 
 ## State Sync

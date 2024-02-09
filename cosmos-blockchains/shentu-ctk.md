@@ -1,9 +1,3 @@
----
-description: >-
-  Decentralized security solution for audits, insurance, monitoring, and
-  decentralized finance, built with the Cosmos SDK.
----
-
 # Shentu (CTK)
 
 ## Snapshot (Max. 4 hours old) <a href="#snapshot" id="snapshot"></a>
