@@ -24,19 +24,3 @@ mv $HOME/.lumd/priv_validator_state.json.backup $HOME/.lumd/data/priv_validator_
 
 sudo systemctl start lumd
 ```
-
-## Addrbook (Updated every hour) <a href="#addrbook" id="addrbook"></a>
-
-[https://valhalla.panthea.eu/addrbooks/lum/addrbook.json](https://valhalla.panthea.eu/addrbooks/lum/addrbook.json)
-
-```bash
-curl -Ls https://valhalla.panthea.eu/addrbooks/lum/addrbook.json > $HOME/.lumd/config/addrbook.json
-```
-
-## Genesis file
-
-[https://valhalla.panthea.eu/genesis/lum/genesis.json](https://valhalla.panthea.eu/genesis/lum/genesis.json)
-
-```bash
-curl -Ls https://valhalla.panthea.eu/genesis/lum/genesis.json > $HOME/.lumd/config/genesis.json
-```
