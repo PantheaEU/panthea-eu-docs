@@ -1,5 +1,7 @@
 # BitSong (BTSG)
 
+Bitsong is a blockchain platform designed for the music industry, aiming to empower artists and creators by providing decentralized tools for content distribution, royalty management, and fan engagement. It allows artists to tokenize their work, ensuring transparent and fair royalty payments through smart contracts. Bitsong also offers direct interaction between artists and fans, bypassing traditional intermediaries, and enabling a more equitable revenue distribution. The platform's native token, $BTSG, facilitates transactions within the ecosystem, supporting a decentralized music economy that prioritizes artists' rights and earnings.
+
 ## Snapshot (Max. 4 hours old) <a href="#snapshot" id="snapshot"></a>
 
 ```bash

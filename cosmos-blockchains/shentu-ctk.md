@@ -1,5 +1,7 @@
 # Shentu (CTK)
 
+Shentu, formerly known as CertiK Chain, is a blockchain focused on security and reliability. It provides a secure infrastructure for decentralized applications (dApps) and smart contracts by incorporating built-in security features and formal verification methods. Shentu allows developers to create and audit smart contracts with enhanced security measures, ensuring that vulnerabilities are minimized. The platform's native token, $CTK, is used for staking, governance, and accessing various security services within the ecosystem. Shentu's goal is to create a trustless and secure blockchain environment, prioritizing the safety and integrity of decentralized systems.
+
 ## Snapshot (Max. 4 hours old) <a href="#snapshot" id="snapshot"></a>
 
 ```bash

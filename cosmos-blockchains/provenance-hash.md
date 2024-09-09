@@ -1,5 +1,7 @@
 # Provenance (HASH)
 
+Provenance is a blockchain platform designed for financial services, enabling secure and transparent transactions, asset tokenization, and streamlined processes. It offers a decentralized ledger that enhances the efficiency and transparency of financial operations, such as loan origination, trading, and asset servicing. By utilizing smart contracts, Provenance reduces costs and operational risks while ensuring compliance and data integrity. The platform supports the creation and management of digital assets, facilitating instant settlement and immutable record-keeping, making it a powerful tool for financial institutions looking to modernize their infrastructure.
+
 ## State Sync
 
 ```bash
