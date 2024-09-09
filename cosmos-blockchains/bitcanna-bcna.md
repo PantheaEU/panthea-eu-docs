@@ -1,5 +1,7 @@
 # BitCanna (BCNA)
 
+Bitcanna is a blockchain platform tailored for the cannabis industry, offering secure payment processing, supply chain transparency, and decentralized identity management. Its native cryptocurrency, $BCNA, enables transactions in regions where traditional banking services are limited due to cannabis regulations. The platform ensures traceability from seed to sale, enhancing consumer trust and regulatory compliance. Bitcanna also features a reputation system for product and business reviews, aiming to standardize and streamline operations within the global cannabis market.
+
 ## Snapshot (Max. 4 hours old) <a href="#snapshot" id="snapshot"></a>
 
 ```bash
