@@ -20,9 +20,13 @@ sudo systemctl start bcnad
 
 ## Wasm only (Max. 4 hours old)
 
+```
+rm -rf $HOME/.bcna/wasm
+
+curl -o - -L https://valhalla.panthea.eu/snapshots/bitcanna-wasm.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.bcna
+```
+
 ## State Sync
-
-
 
 ```bash
 SNAP_RPC="https://bitcanna-rpc.panthea.eu:443"
