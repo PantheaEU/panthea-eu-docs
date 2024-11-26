@@ -18,7 +18,11 @@ mv $HOME/.bcna/priv_validator_state.json.backup $HOME/.bcna/data/priv_validator_
 sudo systemctl start bcnad
 ```
 
+## Wasm only (Max. 4 hours old)
+
 ## State Sync
+
+
 
 ```bash
 SNAP_RPC="https://bitcanna-rpc.panthea.eu:443"
