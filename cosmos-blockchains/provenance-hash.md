@@ -27,7 +27,7 @@ mv $HOME/.provenanced/priv_validator_state.json.backup $HOME/.provenanced/data/p
 sudo systemctl start provenanced
 ```
 
-## Addrbook (Updated every hour) <a href="#addrbook" id="addrbook"></a>
+## Addrbook (Updated every 4 hours) <a href="#addrbook" id="addrbook"></a>
 
 [https://valhalla.panthea.eu/addrbooks/provenance/addrbook.json](https://valhalla.panthea.eu/addrbooks/provenance/addrbook.json)
 
