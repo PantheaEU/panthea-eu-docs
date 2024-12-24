@@ -27,14 +27,6 @@ mv $HOME/.bcna/priv_validator_state.json.backup $HOME/.bcna/data/priv_validator_
 sudo systemctl start bcnad
 ```
 
-## Addrbook (Updated every 4 hours) <a href="#addrbook" id="addrbook"></a>
-
-[https://valhalla.panthea.eu/addrbooks/bitcanna/addrbook.json](https://valhalla.panthea.eu/addrbooks/bitcanna/addrbook.json)&#x20;
-
-```bash
-curl -Ls https://valhalla.panthea.eu/addrbooks/bitcanna/addrbook.json > $HOME/.bcna/config/addrbook.json
-```
-
 ## Persistent Peer
 
 ```url
