@@ -2,30 +2,6 @@
 
 Bitcanna is a blockchain platform tailored for the cannabis industry, offering secure payment processing, supply chain transparency, and decentralized identity management. Its native cryptocurrency, $BCNA, enables transactions in regions where traditional banking services are limited due to cannabis regulations. The platform ensures traceability from seed to sale, enhancing consumer trust and regulatory compliance. Bitcanna also features a reputation system for product and business reviews, aiming to standardize and streamline operations within the global cannabis market.
 
-## Snapshot (Max. 4 hours old) <a href="#snapshot" id="snapshot"></a>
-
-```bash
-sudo systemctl stop bcnad
-
-cp $HOME/.bcna/data/priv_validator_state.json $HOME/.bcna/priv_validator_state.json.backup
-
-rm -rf $HOME/.bcna/data $HOME/.bcna/wasm
-
-curl -o - -L https://valhalla.panthea.eu/snapshots/bitcanna-snapshot.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.bcna
-
-mv $HOME/.bcna/priv_validator_state.json.backup $HOME/.bcna/data/priv_validator_state.json
-
-sudo systemctl start bcnad
-```
-
-## Wasm only (Max. 4 hours old)
-
-```bash
-rm -rf $HOME/.bcna/wasm
-
-curl -o - -L https://valhalla.panthea.eu/snapshots/bitcanna-wasm.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.bcna
-```
-
 ## State Sync
 
 ```bash
@@ -57,14 +33,6 @@ sudo systemctl start bcnad
 
 ```bash
 curl -Ls https://valhalla.panthea.eu/addrbooks/bitcanna/addrbook.json > $HOME/.bcna/config/addrbook.json
-```
-
-## Genesis file
-
-[https://valhalla.panthea.eu/genesis/bitcanna/genesis.json](https://valhalla.panthea.eu/genesis/bitcanna/genesis.json)
-
-```bash
-curl -Ls https://valhalla.panthea.eu/genesis/bitcanna/genesis.json > $HOME/.bcna/config/genesis.json
 ```
 
 ## Persistent Peer
