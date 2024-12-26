@@ -26,27 +26,3 @@ mv $HOME/.bcna/priv_validator_state.json.backup $HOME/.bcna/data/priv_validator_
 
 sudo systemctl start bcnad
 ```
-
-## Persistent Peer
-
-```url
-0a658df9d9fab096983a12e6f878e87281a15ce6@bitcanna-peer.panthea.eu:27656
-```
-
-## Seed Node
-
-```url
-f0e6c86d769bf5c52f78e01864091690e731643f@bitcanna-seed.panthea.eu:37656
-```
-
-## gRPC Endpoint
-
-bitcanna-grpc.panthea.eu:16710
-
-## RPC Endpoint
-
-[https://bitcanna-rpc.panthea.eu/](https://bitcanna-rpc.panthea.eu/)
-
-## REST/API Endpoint
-
-[https://bitcanna-api.panthea.eu/](https://bitcanna-api.panthea.eu/)
