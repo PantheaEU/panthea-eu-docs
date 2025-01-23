@@ -43,7 +43,7 @@ mv $HOME/.bitsongd/priv_validator_state.json.backup $HOME/.bitsongd/data/priv_va
 sudo systemctl start bitsongd
 ```
 
-## Addrbook (Updated every 4 hours) <a href="#addrbook" id="addrbook"></a>
+## Addrbook (Updated every 8 hours) <a href="#addrbook" id="addrbook"></a>
 
 [https://valhalla.panthea.eu/addrbooks/bitsong/addrbook.json](https://valhalla.panthea.eu/addrbooks/bitsong/addrbook.json)
 
