@@ -19,5 +19,5 @@ curl -Ls https://valhalla.panthea.eu/addrbooks/fetch/addrbook.json > $HOME/.fetc
 ## Seed Node
 
 ```url
-Coming soon...
+b66ec99a4d4142ca98308389cafd75156079777c@fetch-seed.panthea.eu:37656
 ```
