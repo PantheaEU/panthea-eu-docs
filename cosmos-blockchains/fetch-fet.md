@@ -1,0 +1,23 @@
+# Fetch.ai (FET)
+
+Fetch.ai is an open-source blockchain platform that combines artificial intelligence (AI) and distributed ledger technology (DLT) to enable decentralized, automated, and intelligent decision-making. It is designed to power autonomous agents—digital entities that act on behalf of individuals, businesses, or devices—facilitating seamless interactions and transactions in complex, decentralized ecosystems.
+
+Fetch.ai employs a proof-of-stake consensus mechanism for security and scalability. It also features a unique smart contract framework, enabling advanced functionalities like AI-powered automation. The platform is built to support applications in a variety of sectors, such as supply chain optimization, decentralized finance (DeFi), energy grid management, transportation, and IoT device coordination.
+
+One key innovation is its use of "multi-agent systems," where autonomous agents collaborate or compete to complete tasks efficiently. For example, in transportation, agents could optimize routes or allocate resources in real-time. Fetch.ai also provides a machine-learning-based framework that enhances decision-making by analyzing vast amounts of data in a decentralized manner.
+
+The platform’s native cryptocurrency, FET, is used for transactions, staking, and incentivizing network participants. Fetch.ai aims to create a smarter, more efficient decentralized ecosystem where AI and blockchain converge to automate and optimize real-world processes.
+
+## Addrbook (Updated every 8 hours)
+
+[https://valhalla.panthea.eu/addrbooks/fetch/addrbook.json](https://valhalla.panthea.eu/addrbooks/fetch/addrbook.json)
+
+```bash
+curl -Ls https://valhalla.panthea.eu/addrbooks/fetch/addrbook.json > $HOME/.fetchd/config/addrbook.json
+```
+
+## Seed Node
+
+```url
+Coming soon...
+```
