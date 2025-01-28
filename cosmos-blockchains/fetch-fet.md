@@ -8,6 +8,31 @@ One key innovation is its use of "multi-agent systems," where autonomous agents 
 
 The platform’s native cryptocurrency, FET, is used for transactions, staking, and incentivizing network participants. Fetch.ai aims to create a smarter, more efficient decentralized ecosystem where AI and blockchain converge to automate and optimize real-world processes.
 
+## State Sync
+
+```bash
+SNAP_RPC="https://fetch-rpc.panthea.eu:443"
+
+LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
+BLOCK_HEIGHT=$((LATEST_HEIGHT - 500)); \
+TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash)
+
+sed -i.bak -E "s|^(enable[[:space:]]+=[[:space:]]+).*$|\1true| ; \
+s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$SNAP_RPC,$SNAP_RPC\"| ; \
+s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
+s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $HOME/.fetchd/config/config.toml
+
+sudo systemctl stop fetchd
+
+cp $HOME/.fetchd/data/priv_validator_state.json $HOME/.fetchd/priv_validator_state.json.backup
+
+fetchd tendermint unsafe-reset-all --keep-addr-book --home "$HOME/.fetchd"
+
+mv $HOME/.fetchd/priv_validator_state.json.backup $HOME/.fetchd/data/priv_validator_state.json
+
+sudo systemctl start fetchd
+```
+
 ## Addrbook (Updated every 8 hours)
 
 [https://valhalla.panthea.eu/addrbooks/fetch/addrbook.json](https://valhalla.panthea.eu/addrbooks/fetch/addrbook.json)
