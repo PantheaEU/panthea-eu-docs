@@ -16,6 +16,20 @@ The platform’s native cryptocurrency, FET, is used for transactions, staking, 
 curl -Ls https://valhalla.panthea.eu/addrbooks/fetch/addrbook.json > $HOME/.fetchd/config/addrbook.json
 ```
 
+## Genesis file
+
+[https://valhalla.panthea.eu/genesis/fetch/genesis.json](https://valhalla.panthea.eu/genesis/fetch/genesis.json)
+
+```bash
+curl -Ls https://valhalla.panthea.eu/genesis/fetch/genesis.json > $HOME/.fetchd/config/genesis.json
+```
+
+## Persistent Peer
+
+```url
+327d55fae801a04ec963345ccaf6baa7233d6df1@fetch-peer.panthea.eu:27656
+```
+
 ## Seed Node
 
 ```url
