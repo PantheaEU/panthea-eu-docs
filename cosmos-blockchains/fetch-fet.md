@@ -21,3 +21,15 @@ curl -Ls https://valhalla.panthea.eu/addrbooks/fetch/addrbook.json > $HOME/.fetc
 ```url
 b66ec99a4d4142ca98308389cafd75156079777c@fetch-seed.panthea.eu:37656
 ```
+
+## gRPC Endpoint
+
+fetch-grpc.panthea.eu:16710
+
+## RPC Endpoint
+
+[https://fetch-rpc.panthea.eu/](https://fetch-rpc.panthea.eu/)
+
+## REST/API Endpoint
+
+[https://fetch-api.panthea.eu/](https://fetch-api.panthea.eu/)
