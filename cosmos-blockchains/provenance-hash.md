@@ -33,6 +33,10 @@ sudo systemctl start provenanced
 
 [https://valhalla.panthea.eu/snapshots/provenance-wasm.tar.lz4](https://valhalla.panthea.eu/snapshots/provenance-wasm.tar.lz4)
 
+```bash
+curl -o - -L https://valhalla.panthea.eu/snapshots/provenance-wasm.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.provenanced/data/
+```
+
 ## Addrbook (Updated every 8 hours) <a href="#addrbook" id="addrbook"></a>
 
 [https://valhalla.panthea.eu/addrbooks/provenance/addrbook.json](https://valhalla.panthea.eu/addrbooks/provenance/addrbook.json)
