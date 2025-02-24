@@ -18,6 +18,20 @@ mv $HOME/.bitsongd/priv_validator_state.json.backup $HOME/.bitsongd/data/priv_va
 sudo systemctl start bitsongd
 ```
 
+## Wasm only (Max. 4 hours old)
+
+[https://valhalla.panthea.eu/snapshots/bitsong-wasm.tar.lz4](https://valhalla.panthea.eu/snapshots/bitsong-wasm.tar.lz4)
+
+```bash
+sudo systemctl stop bitsongd
+
+rm -rf $HOME/.bitsongd/wasm $HOME/.bitsongd/ibc_08-wasm
+
+curl -o - -L https://valhalla.panthea.eu/snapshots/bitsong-wasm.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.bitsongd
+
+sudo systemctl start bitsongd
+```
+
 ## State Sync
 
 ```bash
