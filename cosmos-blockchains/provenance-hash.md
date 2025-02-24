@@ -24,8 +24,14 @@ provenanced tendermint unsafe-reset-all --keep-addr-book --home "$HOME/.provenan
 
 mv $HOME/.provenanced/priv_validator_state.json.backup $HOME/.provenanced/data/priv_validator_state.json
 
+curl -o - -L https://valhalla.panthea.eu/snapshots/provenance-wasm.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.provenanced/data/
+
 sudo systemctl start provenanced
 ```
+
+## Wasm Only
+
+[https://valhalla.panthea.eu/snapshots/provenance-wasm.tar.lz4](https://valhalla.panthea.eu/snapshots/provenance-wasm.tar.lz4)
 
 ## Addrbook (Updated every 8 hours) <a href="#addrbook" id="addrbook"></a>
 
