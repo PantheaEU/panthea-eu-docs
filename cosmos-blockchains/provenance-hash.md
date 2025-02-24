@@ -29,7 +29,7 @@ curl -o - -L https://valhalla.panthea.eu/snapshots/provenance-wasm.tar.lz4 | lz4
 sudo systemctl start provenanced
 ```
 
-## Wasm Only
+## Wasm only
 
 [https://valhalla.panthea.eu/snapshots/provenance-wasm.tar.lz4](https://valhalla.panthea.eu/snapshots/provenance-wasm.tar.lz4)
 
