@@ -1,6 +1,6 @@
 # About Us
 
-Panthea is a highly trusted, reliable and secure Proof-of-Stake infrastructure provider and validator on several popular blockchains in the Cosmos Network.\
+Panthea EU is a highly trusted, reliable and secure Proof-of-Stake infrastructure provider and validator on several popular blockchains in the Cosmos Network.\
 \
 The Cosmos Network is a decentralized network of independent, scalable, and interoperable blockchains, creating the foundation for a new token economy.
 
